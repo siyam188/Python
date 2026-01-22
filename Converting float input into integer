@@ -1,0 +1,7 @@
+weight = float(input("Enter your weight: "))
+new_weight = int(weight)
+
+print("Original weight:", weight)
+print("After type casting (int):", new_weight)
+print("Type of weight:", type(weight))
+print("Type of new_weight:", type(new_weight))
