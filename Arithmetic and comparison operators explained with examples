@@ -1,0 +1,20 @@
+a = 15
+b = 2
+# Arithmetic operations
+print("Arithmetic Operations:")
+print(f"{a} + {b} =", a + b)
+print(f"{a} - {b} =", a - b)
+print(f"{a} * {b} =", a * b)
+print(f"{a} / {b} =", a / b)    # float division
+print(f"{a} // {b} =", a // b)  # integer division
+print(f"{a} ** {b} =", a ** b)  # exponent
+print(f"{a} % {b} =", a % b)    # modulus
+
+# Comparison operations
+print("\nComparison Operations:")
+print(f"{a} == {b} ->", a == b)
+print(f"{a} != {b} ->", a != b)
+print(f"{a} > {b} ->", a > b)
+print(f"{a} < {b} ->", a < b)
+print(f"{a} >= {b} ->", a >= b)
+print(f"{a} <= {b} ->", a <= b)
