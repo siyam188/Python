@@ -1,0 +1,10 @@
+# Python program to assign grades based on marks
+
+mark = 85
+
+if 90 <= mark <= 100:
+    print("Grade: A+")
+elif 80 <= mark <= 89:
+    print("Grade: B+")
+else:
+    print("Grade: C+")
