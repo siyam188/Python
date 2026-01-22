@@ -1,0 +1,13 @@
+
+
+num1 = 20
+num2 = 10
+
+
+if num1 > num2:
+    print("Maximum (if-else):", num1)
+else:
+    print("Maximum (if-else):", num2)
+
+
+print("Maximum (ternary):", num1 if num1 > num2 else num2)
