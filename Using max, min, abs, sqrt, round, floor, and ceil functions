@@ -1,0 +1,20 @@
+from math import *
+
+print("Math Module Functions:\n")
+
+# Maximum and Minimum
+print("Maximum of 20 and 10:", max(20, 10))
+print("Minimum of 20 and 10:", min(20, 10))
+
+# Absolute value
+print("Absolute value of -4:", abs(-4))
+
+# Square root
+print("Square root of 25:", sqrt(25))
+
+# Rounding numbers
+print("Rounded value of 3.2:", round(3.2))
+
+# Floor and Ceiling
+print("Floor of 3.7:", floor(3.7))
+print("Ceil of 3.7:", ceil(3.7))
