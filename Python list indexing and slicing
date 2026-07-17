@@ -1,0 +1,32 @@
+# Python List Indexing & Slicing
+
+numbers = [34, 56, 12, 78, 90, 23, 56, 89, 22, 19]
+
+# Indexing
+print("Element at index 3:", numbers[3])
+print("Element at index -3:", numbers[-3])
+
+# Slicing (start:end)
+print("numbers[2:6] =", numbers[2:6])
+
+# Slicing (start:end:step)
+print("numbers[1:7:1] =", numbers[1:7:1])
+
+# This returns an empty list because step is negative
+print("numbers[2:7:-1] =", numbers[2:7:-1])
+
+# Correct reverse slicing
+print("numbers[7:2:-1] =", numbers[7:2:-1])
+
+# From index 4 to the end
+print("numbers[4:] =", numbers[4:])
+
+# From the beginning to index 4
+print("numbers[:5] =", numbers[:5])
+
+# Copy the entire list
+copy_list = numbers[:]
+print("Copy of list:", copy_list)
+
+# Reverse the list
+print("Reversed list:", numbers[::-1])
