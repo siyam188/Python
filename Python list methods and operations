@@ -1,0 +1,64 @@
+# Python List Methods Example
+
+numbers = [12, 45, 98, 68]
+
+# Append
+numbers.append(56)
+print("After append:", numbers)
+
+# Insert
+numbers.insert(2, 71)
+print("After insert:", numbers)
+
+# Remove
+if 98 in numbers:
+    numbers.remove(98)
+print("After remove 98:", numbers)
+
+# Remove non-existing value
+if 8 in numbers:
+    numbers.remove(8)
+print("After checking 8:", numbers)
+
+# Pop
+last = numbers.pop()
+print("Popped value:", last)
+print("List:", numbers)
+
+# Index
+index = numbers.index(71)
+print("Index of 71:", index)
+
+# Check before searching
+if 5 in numbers:
+    index = numbers.index(5)
+    print(index)
+else:
+    print("5 not found")
+
+# Fruits List
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+
+# Count
+print("Pear count:", fruits.count('pear'))
+
+# Sort
+fruits.sort()
+print("Sorted:", fruits)
+
+# Index
+print("First banana index:", fruits.index('banana'))
+print("Banana index from position 4:", fruits.index('banana', 4))
+
+# Append
+fruits.append('grape')
+print("After append:", fruits)
+
+# Reverse
+fruits.reverse()
+print("Reverse:", fruits)
+
+# Pop
+last = fruits.pop()
+print("Popped:", last)
+print("Final List:", fruits)
