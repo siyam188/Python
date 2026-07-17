@@ -1,0 +1,29 @@
+def multiple():
+    return 3, 4
+
+print(multiple())
+
+things = ('pen', 'tripod', 'water bottle', 'charger', 'phone')
+print(things)
+
+print(things[0])
+print(things[-2])
+print(things[2:4])
+
+if 'phone' in things:
+    print("yes")
+
+for item in things:
+    print(item)
+
+# things[0] = 'khata'   # ❌ Error (Tuple is immutable)
+
+print(len(things))
+
+mega = ([1, 2, 3], [4, 5, 6])
+print(type(mega))
+
+print(mega[0])
+
+mega[0][1] = 666
+print(mega)
