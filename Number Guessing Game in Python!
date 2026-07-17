@@ -1,0 +1,8 @@
+from random import randint, random
+guessNumber=int(input("Guess a number between 1 and 10: "))
+randomNumber=randint(1, 10)
+if guessNumber == randomNumber:
+    print("Congratulations! You guessed the correct number.")
+else:
+    print("Sorry, that's not the correct number.")
+    print(f"The correct number was {randomNumber}.")
