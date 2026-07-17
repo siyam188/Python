@@ -1,0 +1,54 @@
+# Python Set Example
+
+# Set stores only unique values
+num = [12, 34, 56, 78, 12, 6, 89]
+
+print("Original List:")
+print(num)
+
+# Convert list to set
+num_set = set(num)
+print("\nSet (Duplicates Removed):")
+print(num_set)
+
+# Add an element
+num_set.add(55)
+print("\nAfter Adding 55:")
+print(num_set)
+
+# Remove an element
+num_set.remove(6)
+print("\nAfter Removing 6:")
+print(num_set)
+
+# Duplicate values are automatically removed
+s = {1, 2, 2, 3, 3, 4}
+print("\nUnique Set:")
+print(s)
+
+# Add a new value
+s.add(6)
+print("After Adding 6:")
+print(s)
+
+# Loop through the set
+print("\nIterating through the set:")
+for item in num_set:
+    print(item)
+
+# Membership test
+if 89 in num_set:
+    print("\n89 exists in the set.")
+
+# Set operations
+a = {1, 2, 3, 5, 7}
+b = {1, 2, 3, 4, 5}
+
+print("\nIntersection (a & b):")
+print(a & b)
+
+print("\nUnion (a | b):")
+print(a | b)
+
+print("\nDifference (a - b):")
+print(a - b)
