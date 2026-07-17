@@ -1,0 +1,42 @@
+# Dictionary (Key-Value Pair)
+
+person1 = ['kala chan', 'kalipur', 23, 'student']
+
+person = {
+    'name': 'kala pakhi',
+    'address': 'kalipur',
+    'age': 23
+}
+
+print(person)
+print(person['age'])
+
+# {key: value, key: value, key: value}
+
+print(person.keys())
+print(person.values())
+
+person['language'] = 'python'
+print(person)
+
+person['name'] = 'sada pakhi'
+print(person)
+
+del person['age']
+print(person)
+
+person1 = {
+    'name': 'kala pakhi',
+    'address': 'kalipur',
+    'age': 23
+}
+
+for key, value in person1.items():
+    print(key, value)
+
+person = {
+    'name': 'Siyam',
+    'age': 17
+}
+
+print(person.items())
