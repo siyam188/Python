@@ -1,0 +1,22 @@
+# Function with **kwargs
+
+def famous_name(first, last, title, **addition):
+    name = f"{title} {first} {last}"
+
+    print("Additional Information:")
+    for key, value in addition.items():
+        print(f"{key}: {value}")
+
+    return name
+
+
+name = famous_name(
+    first="Siyam",
+    last="Mia",
+    title="Mr.",
+    country="Bangladesh",
+    profession="Student",
+    university="Uttara University"
+)
+
+print("\nFull Name:", name)
