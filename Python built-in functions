@@ -1,0 +1,18 @@
+# max()
+highest = max(45, 42, 67, 89)
+print("Highest:", highest)
+
+highest = max([45, 42, 67, 89, 87, 91])
+print("Highest from list:", highest)
+
+# min()
+smallest = min(11, 2, 34, 67, 70)
+print("Smallest:", smallest)
+
+# len()
+count = len([1, 2, 3])
+print("Length:", count)
+
+# sum()
+total = sum([1, 2, 4, 56, 78])
+print("Total:", total)
