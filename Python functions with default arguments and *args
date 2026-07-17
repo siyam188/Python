@@ -1,0 +1,38 @@
+# Python Functions: Default Arguments & *args
+
+# Function with default parameter
+def add(n1, n2, n3=0):
+    return n1 + n2 + n3
+
+total = add(5, 10, 15)
+print("Total:", total)
+
+
+# Function using *args
+def all_sum(*numbers):
+    print("Numbers:", numbers)
+
+    total = 0
+    for num in numbers:
+        total += num
+
+    return total
+
+result = all_sum(5, 6, 7, 8, 9)
+print("Sum:", result)
+
+
+# Function with required parameters and *args
+def display(n1, n2, *numbers):
+    print("First Number:", n1)
+    print("Second Number:", n2)
+    print("Remaining Numbers:", numbers)
+
+display(5, 6, 7, 8, 9)
+
+
+# Display different data types using *args
+def show(*args):
+    print("Arguments:", args)
+
+show("Siyam", 17, "Bangladesh")
