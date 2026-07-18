@@ -1,0 +1,13 @@
+from collections import deque
+
+bank = deque(["siyam","walid","shakib","rezve"])
+print(bank)
+
+bank.popleft()
+print(bank)
+
+# bank.pop()
+# print(bank)
+
+if not bank:
+    print(" No person left")
