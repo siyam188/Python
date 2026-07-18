@@ -1,0 +1,8 @@
+def my(a):
+    return len(a)
+
+words = ["Python", "Java", "C", "JavaScript"]
+
+x = map(my, words)
+
+print(list(x))
